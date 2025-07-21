@@ -1,0 +1,33 @@
+:root {
+    --background-color: rgb(30, 77, 66);
+    --background-accent: rgb(113, 175, 255);
+    --foreground-color: rgb(73, 233, 166);
+    --foreground-accent: rgb(236, 158, 39);
+}
+
+#page {
+    background-color: var(--background-color);
+}
+
+.racoon-speak {
+    margin: auto;
+    width: 60%;
+    border: 3px solid var(--foreground-color);
+    background-color: forestgreen;
+    padding: 10px;
+    color: var(--foreground-accent);
+    text-align: center;
+    position: relative;
+    border-radius: 10px 5px 5px 10px;
+}
+
+.wide {
+    width: 100%;
+    height: auto;
+}
+
+.speaking-raccoon {
+    position: absolute;
+    top: 42px;
+    left: 140px;
+}
